@@ -1,0 +1,25 @@
+{
+    "name": "star/starship-challenge",
+    "description": "Challenge for battle management",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-0": {
+            "": ["src"]
+        }
+    },
+    "authors": [
+        {
+            "name": "Yannick Voyer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*",
+        "behat/behat": "2.4.*@stable"
+    },
+    "config": {
+        "bin-dir": "bin/"
+    }
+}
